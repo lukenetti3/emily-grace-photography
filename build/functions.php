@@ -122,9 +122,9 @@ add_action( 'widgets_init', 'emily_gphotography_widgets_init' );
 function emily_gphotography_scripts() {
 	wp_enqueue_style( 'emily-gphotography-style', get_template_directory_uri() . '/build/css/style.css' );
 
-	wp_enqueue_script( 'emily-gphotography-style', get_template_directory_uri() . '/bower_components/bootstrap/dist/js/bootstrap.min.js', array(), false, true );
+	wp_enqueue_script( 'emily-gphotography-style', get_template_directory_uri() . '/bower_components/bootstrap/dist/js/bootstrap.min.js', array('jquery') );
 
-	wp_enqueue_script( 'emily-gphotography-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	// wp_enqueue_script( 'emily-gphotography-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'emily-gphotography-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
@@ -133,6 +133,23 @@ function emily_gphotography_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'emily_gphotography_scripts' );
+
+function add_link_atts($atts) {
+  $atts['class'] = "nav-link";
+  return $atts;
+}
+add_filter( 'nav_menu_link_attributes', 'add_link_atts');
+
+add_filter( 'nav_menu_css_class', function($classes) {
+    $classes[] = 'nav-item';
+    return $classes;
+}, 10, 1 );
+
+add_action('get_header', 'remove_admin_login_header');
+
+function remove_admin_login_header() {
+    remove_action('wp_head', '_admin_bar_bump_cb');
+}
 
 /**
  * Implement the Custom Header feature.

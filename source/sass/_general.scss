@@ -1,1 +1,32 @@
+// Colors
+$beige: #FCF9F2;
+$light-grey: #F2F2F2;
+$dark-grey: #707070;
+$wine: #6E1012;
 
+h1, h2, h3, h4, h5, p, a, li {
+  color: $dark-grey;
+}
+
+.navbar-brand {
+  color: $dark-grey;
+  font-size: 2.5vw;
+  margin-right: 0;
+}
+
+.navbar {
+  padding: 20px;
+  background-color: $light-grey;
+}
+
+h1 {
+  font-size: 2.2vw;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-toggler {
+    position: absolute;
+    right: 1.3em;
+    top: 1.3em;
+  }
+}

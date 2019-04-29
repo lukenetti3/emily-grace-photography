@@ -20,24 +20,28 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'emily-gphotography' ); ?></a>
-
 	<header id="masthead" class="site-header">
-		<div class="container">
-			<h1>Hello World</h1>
-		</div>
 
-		<nav id="site-navigation" class="main-navigation">
-			<?php
-			wp_nav_menu( array(
-				'menu' 					 => 'header',
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+			<div class="container nav-area d-flex flex-column">
+				<a class="navbar-brand" href="<?php echo get_bloginfo('wpurl') ?>"><?php echo get_bloginfo() ?></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+					<?php
+					wp_nav_menu( array(
+						'menu' 					 => 'header',
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu',
+						'menu_class'     => 'navbar-nav',
+					) );
+					?>
+			  </div>
+			</div>
+	</nav>
+
+
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
