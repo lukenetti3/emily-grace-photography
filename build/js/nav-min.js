@@ -1,0 +1,1 @@
+!function(n){n(document).ready(function(){var o=n("#startchange"),c=o.offset();o.length&&n(document).scroll(function(){n(this).scrollTop()>c.top?n(".navbar").css("background-color","#F2F2F2"):n(".navbar").css("background-color","transparent")})})}(jQuery);

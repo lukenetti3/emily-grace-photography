@@ -10,13 +10,21 @@ h1, h2, h3, h4, h5, p, a, li {
 
 .navbar-brand {
   color: $dark-grey;
-  font-size: 2.5vw;
   margin-right: 0;
+  font-size: calc(1em + 1.2vw);
+}
+
+#site-title {
+  color: $dark-grey;
 }
 
 .navbar {
   padding: 20px;
-  background-color: $light-grey;
+}
+
+.test {
+  height: 1200px;
+  background-color: black;
 }
 
 h1 {
@@ -26,7 +34,10 @@ h1 {
 @media only screen and (max-width: 991px) {
   .navbar-toggler {
     position: absolute;
-    right: 1.3em;
-    top: 1.3em;
+    right: 1.2em;
+    top: 1.2em;
+    border: 0;
+    color: $dark-grey;
   }
+
 }

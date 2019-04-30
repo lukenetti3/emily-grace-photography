@@ -22,9 +22,9 @@
 
 	<header id="masthead" class="site-header">
 
-		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+		<nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container nav-area d-flex flex-column">
-				<a class="navbar-brand" href="<?php echo get_bloginfo('wpurl') ?>"><?php echo get_bloginfo() ?></a>
+				<a class="navbar-brand" id="site-title" href="<?php echo get_bloginfo('wpurl') ?>"><?php echo get_bloginfo() ?></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
@@ -39,7 +39,7 @@
 					?>
 			  </div>
 			</div>
-	</nav>
+		</nav>
 
 
 	</header><!-- #masthead -->

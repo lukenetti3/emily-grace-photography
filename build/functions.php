@@ -122,9 +122,10 @@ add_action( 'widgets_init', 'emily_gphotography_widgets_init' );
 function emily_gphotography_scripts() {
 	wp_enqueue_style( 'emily-gphotography-style', get_template_directory_uri() . '/build/css/style.css' );
 
-	wp_enqueue_script( 'emily-gphotography-style', get_template_directory_uri() . '/bower_components/bootstrap/dist/js/bootstrap.min.js', array('jquery') );
+	wp_enqueue_script( 'emily-gphotography-style', get_template_directory_uri() . '/bower_components/bootstrap/dist/js/bootstrap.min.js', array('jquery'), '1.0', true );
 
-	// wp_enqueue_script( 'emily-gphotography-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_register_script('custom_script', home_url() . '/wp-content/themes/emily-gphotography/source/js/nav.js', array( 'jquery' ),'1.0', true);
+	wp_enqueue_script('custom_script');
 
 	wp_enqueue_script( 'emily-gphotography-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
@@ -132,6 +133,7 @@ function emily_gphotography_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
+
 add_action( 'wp_enqueue_scripts', 'emily_gphotography_scripts' );
 
 function add_link_atts($atts) {
