@@ -16,7 +16,7 @@
 <footer id="colophon" class="site-footer">
 	<div class="site-footer align-items-center d-flex align-items-center">
 		<div class="container text-center">
-				<h3>Cobblestone Bakery</h3>
+				<h3>Emily Grace Photography</h3>
 				<p>568 Mayfair Lane<br>
 					 Kearny, MA 01032</p>
 				<p>202.555.0127</p>

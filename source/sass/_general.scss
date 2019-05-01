@@ -1,10 +1,23 @@
-// Colors
+// Colors and basic setup
 $beige: #FCF9F2;
 $light-grey: #F2F2F2;
 $dark-grey: #707070;
 $wine: #6E1012;
 
+body {
+  padding-top: 120px;
+}
+
 h1, h2, h3, h4, h5, p, a, li {
+  color: $dark-grey;
+}
+
+h1 {
+  font-size: 2.2vw;
+}
+
+// Navbar contents
+#site-title {
   color: $dark-grey;
 }
 
@@ -14,24 +27,13 @@ h1, h2, h3, h4, h5, p, a, li {
   font-size: calc(1em + 1.2vw);
 }
 
-#site-title {
-  color: $dark-grey;
-}
-
 .navbar {
   padding: 20px;
   background-color: transparent;
 }
 
-body {
-  padding-top: 100px;
-}
 
-
-h1 {
-  font-size: 2.2vw;
-}
-
+// Media Queries
 @media only screen and (max-width: 991px) {
   .navbar-toggler {
     position: absolute;
@@ -44,5 +46,4 @@ h1 {
   .navbar {
     background-color: $light-grey;
   }
-
 }
