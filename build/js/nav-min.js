@@ -1,1 +1,1 @@
-!function(n){n(document).ready(function(){var o=n("#startchange"),c=o.offset();o.length&&n(document).scroll(function(){n(this).scrollTop()>c.top?n(".navbar").css("background-color","#F2F2F2"):n(".navbar").css("background-color","transparent")})})}(jQuery);
+!function(o){o(document).ready(function(){var n=o("#section-1"),c=n.offset();n.length&&o(document).scroll(function(){o(this).scrollTop()>c.top?o(".navbar").css("background-color","#F2F2F2"):o(".navbar").css("background-color","transparent")})})}(jQuery);

@@ -6005,7 +6005,7 @@
 		"oAP": "/build/screenshot.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6148,7 +6148,8 @@
 	"displayValue": "emily-gphotography",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_purple",
-	"iconImageWasSetByUser": 1
+	"iconImageWasSetByUser": 1,
+	"lastBuiltDate": 578447111.71768796
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
