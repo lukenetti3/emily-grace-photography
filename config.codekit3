@@ -5774,12 +5774,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/build",
-		"oF": 0
-		},
 	"/comments.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -6149,7 +6143,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_purple",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 578447111.71768796
+	"lastBuiltDate": 578530858.606758
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -41,6 +41,21 @@ hr {
   width: 2rem;
 }
 
+.offset-block {
+  position: relative;
+  display: inline-block;
+  background-color: $beige;
+  height: 100%;
+  width: 100%;
+  top: 50px;
+  right: 100px;
+}
+
+#section-3 {
+  padding-top: 2rem;
+  padding-bottom: 7rem;
+}
+
 @media only screen and (max-width: 650px) {
   .remove {
     display: none;
