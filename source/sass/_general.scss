@@ -24,7 +24,8 @@ h1 {
 .navbar-brand {
   color: $dark-grey;
   margin-right: 0;
-  font-size: calc(1em + 1.2vw);
+  font-size: 1rem;
+  // font-size: calc(1em + 1.2vw);
 }
 
 .navbar {
@@ -44,6 +45,14 @@ h1 {
   }
 
   .navbar {
-    background-color: $light-grey;
+    background-color: $beige !important;
+
+    .navbar-brand {
+      text-align: left;
+    }
+  }
+
+  .hero-section {
+    padding-top: 0;
   }
 }
