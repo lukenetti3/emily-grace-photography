@@ -67,7 +67,7 @@ $carouselImage3 = get_field('carousel_image_3');
         <h2>Testimonial</h2>
       </div>
       <div class="grid-item box-img">
-        <img class="img-fluid w-100 h-100" src="<?php echo $testimonialImage ?>" alt="testimonial image">
+        <img class="" src="<?php echo $testimonialImage ?>" alt="testimonial image">
       </div>
       <div class="grid-item box-text text-center">
           <p class="quote">"</p>
@@ -86,13 +86,13 @@ $carouselImage3 = get_field('carousel_image_3');
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="<?php echo $carouselImage1 ?>" alt="First slide">
+        <img class="d-block wide-block" src="<?php echo $carouselImage1 ?>" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="<?php echo $carouselImage2 ?>" alt="Second slide">
+        <img class="d-block wide-block" src="<?php echo $carouselImage2 ?>" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="<?php echo $carouselImage3 ?>" alt="Third slide">
+        <img class="d-block wide-block" src="<?php echo $carouselImage3 ?>" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -105,5 +105,6 @@ $carouselImage3 = get_field('carousel_image_3');
     </a>
   </div>
 </section>
+
 
 <?php get_footer() ?>
