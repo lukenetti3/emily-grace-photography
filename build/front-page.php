@@ -21,7 +21,7 @@ $carouselImage3 = get_field('carousel_image_3');
 
 
 <section id="section-1">
-  <div class="container py-4 hero-section">
+  <div class="container py-5 hero-section">
     <div class="row img-set-3">
       <div class="col-12 col-md-4 box p-4">
         <img class="img-fluid w-100 h-100" src="<?php echo $image_left ?>" alt="two kids">
@@ -40,7 +40,7 @@ $carouselImage3 = get_field('carousel_image_3');
   <div class="container-fluid pt-5">
     <div class="row align-items-center">
       <div class="col-12 col-xl-6 bg-beige p-5-xl text-center">
-        <hr class="remove"><h2 class="d-inline px-5"><?php echo $heading1 ?></h2><hr>
+        <hr class="remove test-hr"><h2 class="d-inline px-5"><?php echo $heading1 ?></h2><hr class="test-hr">
         <p class="lead py-4 p-line-height">
           <?php echo $paragraph1 ?>
          </p>
@@ -49,7 +49,7 @@ $carouselImage3 = get_field('carousel_image_3');
          </button>
       </div>
       <div class="col-12 col-xl-6 bg-grey p-5-xl text-center">
-        <hr class="remove"><h2 class="d-inline px-5"><?php echo $heading2 ?></h2><hr>
+        <hr class="remove test-hr"><h2 class="d-inline px-5"><?php echo $heading2 ?></h2><hr class="test-hr">
         <p class="lead py-4 p-line-height">
           <?php echo $paragraph2 ?>
          </p>
@@ -103,6 +103,31 @@ $carouselImage3 = get_field('carousel_image_3');
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+  </div>
+</section>
+
+<section id="section-5">
+  <div class="container">
+    <h2 class="text-center pb-5">Photography Process</h2>
+    <hr class="full-width">
+    <div class="row pb-5">
+      <div class="col-12 col-md-6 col-lg-3 process pl-5">
+        <span class="lead">1. </span><h3 class="lead d-inline">Lorem Ipsum</h3>
+        <p class="process-text ml-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 process pl-5">
+        <span class="lead">2. </span><h3 class="lead d-inline">Lorem Ipsum</h3>
+        <p class="process-text ml-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 process pl-5">
+        <span class="lead">3. </span><h3 class="lead d-inline">Lorem Ipsum</h3>
+        <p class="process-text ml-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 process pl-5">
+        <span class="lead">4. </span><h3 class="lead d-inline">Lorem Ipsum</h3>
+        <p class="process-text ml-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+      </div>
+    </div>
   </div>
 </section>
 

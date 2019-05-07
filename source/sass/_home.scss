@@ -33,7 +33,7 @@
   padding: 7rem;
 }
 
-hr {
+.test-hr {
   border-top: 2px solid $wine;
   display: inline-block;
   margin-bottom: 0.5rem;
@@ -121,6 +121,10 @@ hr {
 }
 
 @media only screen and (max-width: 650px) {
+  .test-hr {
+    display: block;
+  }
+
   .remove {
     display: none;
   }
@@ -129,12 +133,27 @@ hr {
     padding: 4rem;
   }
 
-  hr {
-    display: block;
-  }
-
   .header-testimonial {
     padding-top: -50px;
     padding-bottom: 10px;
   }
+}
+
+// Photography Process
+.full-width {
+  border-top: 1px solid $wine;
+}
+
+.process:not(:last-child) {
+  border-right: 1px solid $wine;
+  height: 150px;
+  width: 300px;
+}
+
+span {
+  color: $dark-grey;
+}
+
+.process-text {
+  text-align: left;
 }

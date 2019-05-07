@@ -24,8 +24,7 @@ h1 {
 .navbar-brand {
   color: $dark-grey;
   margin-right: 0;
-  font-size: 1rem;
-  // font-size: calc(1em + 1.2vw);
+  font-size: 2rem;
 }
 
 .navbar {
@@ -38,8 +37,8 @@ h1 {
 @media only screen and (max-width: 991px) {
   .navbar-toggler {
     position: absolute;
-    right: 1.2em;
-    top: 1.2em;
+    right: 1rem;
+    top: 1.5rem;
     border: 0;
     color: $dark-grey;
   }
@@ -48,7 +47,7 @@ h1 {
     background-color: $beige !important;
 
     .navbar-brand {
-      text-align: left;
+      font-size: 1.5rem;
     }
   }
 
