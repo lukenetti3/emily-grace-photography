@@ -150,10 +150,24 @@
   width: 300px;
 }
 
+@media only screen and (max-width: 1018px) {
+    .process:last-child {
+      border-right: 1px solid $wine;
+    }
+    .photo-process {
+      padding-right: 13px;
+    }
+}
+
 span {
   color: $dark-grey;
 }
 
 .process-text {
   text-align: left;
+}
+
+footer {
+  background-color: $beige;
+  padding: 3rem 0;
 }

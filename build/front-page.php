@@ -110,7 +110,7 @@ $carouselImage3 = get_field('carousel_image_3');
   <div class="container">
     <h2 class="text-center pb-5">Photography Process</h2>
     <hr class="full-width">
-    <div class="row pb-5">
+    <div class="row pb-5 photo-process">
       <div class="col-12 col-md-6 col-lg-3 process pl-5">
         <span class="lead">1. </span><h3 class="lead d-inline">Lorem Ipsum</h3>
         <p class="process-text ml-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>

@@ -13,14 +13,25 @@
 
 </div><!-- #content -->
 
-<footer id="colophon" class="site-footer">
-	<div class="site-footer align-items-center d-flex align-items-center">
-		<div class="container text-center">
-				<h3>Emily Grace Photography</h3>
-				<p>568 Mayfair Lane<br>
-					 Kearny, MA 01032</p>
-				<p>202.555.0127</p>
+<footer id="colophon" class="site-footer bg-beige">
+	<div class="site-footer container">
+		<div class="row">
+			<div class="col-12 col-lg-3 offset-lg-3">
+				<p class="lead text-center">Emily Grace Photography</p>
+				<div class="row">
+					<div class="col-6">
+						<i class="fab fa-instagram fa-2x icons"></i>
+					</div>
+					<div class="col-6">
+						<i class="fab fa-facebook-f fa-2x icons"></i>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-3 offset-lg-6">
+
+			</div>
 		</div>
+	 </div>
 	</div><!-- .site-info -->
 </footer><!-- #colophon -->
 </div><!-- #page -->
