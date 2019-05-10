@@ -16,20 +16,23 @@
 <footer id="colophon" class="site-footer bg-beige">
 	<div class="site-footer container">
 		<div class="row">
-			<div class="col-12 col-lg-3 offset-lg-3">
-				<p class="lead text-center">Emily Grace Photography</p>
-				<div class="row">
-					<div class="col-6">
-						<i class="fab fa-instagram fa-2x icons"></i>
-					</div>
-					<div class="col-6">
-						<i class="fab fa-facebook-f fa-2x icons"></i>
-					</div>
-				</div>
+			<div class="col-6 text-right pr-5 footer-left">
+				<p class="lead">Emily Grace Photography</p>
+				<i class="fab fa-instagram fa-2x icons px-3"></i>
+				<i class="fab fa-facebook-f fa-2x icons px-3"></i>
 			</div>
-			<div class="col-12 col-lg-3 offset-lg-6">
 
+			<div class="col-6 pl-5 footer-items">
+					<p class="lead">Links</p>
+						<?php
+						wp_nav_menu( array(
+							'menu' 					 => 'footer',
+							'menu_id'        => 'secondary-menu',
+							'menu_class'     => 'footer-menu',
+						) );
+						?>
 			</div>
+		 </div>
 		</div>
 	 </div>
 	</div><!-- .site-info -->

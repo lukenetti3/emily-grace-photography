@@ -136,16 +136,13 @@ function emily_gphotography_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'emily_gphotography_scripts' );
 
-function add_link_atts($atts) {
-  $atts['class'] = "nav-link";
-  return $atts;
+function add_link_atts($atts, $item, $args) {
+	if( $args->theme_location == 'primary' ) {
+  	$atts['class'] = "nav-link";
+	}
+	return $atts;
 }
-add_filter( 'nav_menu_link_attributes', 'add_link_atts');
-
-add_filter( 'nav_menu_css_class', function($classes) {
-    $classes[] = 'nav-item';
-    return $classes;
-}, 10, 1 );
+add_filter( 'nav_menu_link_attributes', 'add_link_atts', 10, 3);
 
 add_action('get_header', 'remove_admin_login_header');
 

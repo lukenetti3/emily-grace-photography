@@ -30,6 +30,14 @@ h1 {
 .navbar {
   padding: 20px;
   background-color: transparent;
+
+  .navbar-nav > li {
+      padding: 0 0.5rem;
+
+      a {
+        text-decoration: none;
+      }
+  }
 }
 
 

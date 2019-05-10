@@ -1,13 +1,14 @@
 .btn-outline-primary {
-
+  border-radius: 0;
   a {
-    text-decoration: none;
     color: $wine;
   }
+}
 
+li {
+  list-style-type: none;
   a:hover {
     text-decoration: none;
-    color: white;
   }
 }
 
@@ -170,4 +171,26 @@ span {
 footer {
   background-color: $beige;
   padding: 3rem 0;
+  margin-top: 3rem;
+
+  #secondary-menu {
+    padding: 0;
+    li > a {
+      font-size: 12px;
+    }
+  }
+
+  .footer-left {
+    border-right: 3px solid $wine;
+  }
+}
+
+i:last-child {
+  margin-right: 3rem;
+}
+
+@media only screen and (max-width: 650px) {
+  i:last-child {
+     margin-right: 0;
+  }
 }
