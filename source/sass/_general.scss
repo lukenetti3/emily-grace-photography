@@ -4,8 +4,16 @@ $light-grey: #F2F2F2;
 $dark-grey: #707070;
 $wine: #6E1012;
 
+html, body {
+    font-family: 'Roboto Slab', serif;
+}
+
 body {
   padding-top: 120px;
+}
+
+.lt-font {
+  font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, p, a, li {
@@ -32,10 +40,11 @@ h1 {
   background-color: transparent;
 
   .navbar-nav > li {
-      padding: 0 0.5rem;
+      padding: 1rem 0.5rem;
 
       a {
         text-decoration: none;
+        font-weight: 300;
       }
   }
 }
@@ -46,7 +55,7 @@ h1 {
   .navbar-toggler {
     position: absolute;
     right: 1rem;
-    top: 1.5rem;
+    top: 1.7rem;
     border: 0;
     color: $dark-grey;
   }

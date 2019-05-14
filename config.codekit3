@@ -7603,7 +7603,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http://egp.test/",
+	"externalServerAddress": "http://emily-grace-photography.local/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

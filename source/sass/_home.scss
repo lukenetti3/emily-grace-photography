@@ -145,6 +145,10 @@ li {
   border-top: 1px solid $wine;
 }
 
+.numbers {
+  font-size: 20px;
+}
+
 .process:not(:last-child) {
   border-right: 1px solid $wine;
   height: 150px;

@@ -136,6 +136,14 @@ function emily_gphotography_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'emily_gphotography_scripts' );
 
+function wpb_add_google_fonts() {
+
+wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" ', false );
+
+}
+
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
+
 function add_link_atts($atts, $item, $args) {
 	if( $args->theme_location == 'primary' ) {
   	$atts['class'] = "nav-link";

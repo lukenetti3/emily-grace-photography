@@ -23,7 +23,7 @@
 			</div>
 
 			<div class="col-6 pl-5 footer-items">
-					<p class="lead">Links</p>
+					<p class="lead mb-0">Links</p>
 						<?php
 						wp_nav_menu( array(
 							'menu' 					 => 'footer',

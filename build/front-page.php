@@ -71,10 +71,7 @@ $carouselImage3 = get_field('carousel_image_3');
       </div>
       <div class="grid-item box-text text-center">
           <p class="quote">"</p>
-          <p class="lead p-line-height">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed diam voluptua. At vero eos
-          </p>
+          <p class="lead p-line-height"><?php echo $testimonialText ?></p>
           <p class="lead p-line-height">
             -Jane Doe
           </p>
@@ -112,20 +109,20 @@ $carouselImage3 = get_field('carousel_image_3');
     <hr class="full-width">
     <div class="row pb-5 photo-process">
       <div class="col-12 col-md-6 col-lg-3 process pl-5">
-        <span class="lead">1. </span><h3 class="lead d-inline">Lorem Ipsum</h3>
-        <p class="process-text ml-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+        <span class="numbers">1. </span><h5 class="d-inline">Lorem Ipsum</h5>
+        <p class="process-text ml-4 lt-font">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
       </div>
       <div class="col-12 col-md-6 col-lg-3 process pl-5">
-        <span class="lead">2. </span><h3 class="lead d-inline">Lorem Ipsum</h3>
-        <p class="process-text ml-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+        <span class="numbers">2. </span><h5 class="d-inline">Lorem Ipsum</h5>
+        <p class="process-text ml-4 lt-font">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
       </div>
       <div class="col-12 col-md-6 col-lg-3 process pl-5">
-        <span class="lead">3. </span><h3 class="lead d-inline">Lorem Ipsum</h3>
-        <p class="process-text ml-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+        <span class="numbers">3. </span><h5 class="d-inline">Lorem Ipsum</h5>
+        <p class="process-text ml-4 lt-font">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
       </div>
       <div class="col-12 col-md-6 col-lg-3 process pl-5">
-        <span class="lead">4. </span><h3 class="lead d-inline">Lorem Ipsum</h3>
-        <p class="process-text ml-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+        <span class="numbers">4. </span><h5 class="d-inline">Lorem Ipsum</h5>
+        <p class="process-text ml-4 lt-font">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
       </div>
     </div>
   </div>
