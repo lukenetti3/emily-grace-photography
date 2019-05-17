@@ -17,6 +17,15 @@ $testimonialText = get_field('testimonial_text');
 $carouselImage1 = get_field('carousel_image_1');
 $carouselImage2 = get_field('carousel_image_2');
 $carouselImage3 = get_field('carousel_image_3');
+
+$step1 = get_field('step_1');
+$step2 = get_field('step_2');
+$step3 = get_field('step_3');
+$step4 = get_field('step_4');
+$stepDetail1 = get_field('step_detail_1');
+$stepDetail2 = get_field('step_detail_2');
+$stepDetail3 = get_field('step_detail_3');
+$stepDetail4 = get_field('step_detail_4');
 ?>
 
 
@@ -24,13 +33,13 @@ $carouselImage3 = get_field('carousel_image_3');
   <div class="container py-5 hero-section">
     <div class="row img-set-3">
       <div class="col-12 col-md-4 box p-4">
-        <img class="img-fluid w-100 h-100" src="<?php echo $image_left ?>" alt="two kids">
+        <img class="img-fluid w-100 h-100 family" src="<?php echo $image_left ?>" alt="two kids">
       </div>
       <div class="col-12 col-md-4 box px-4 py-md-4 px-md-0">
         <img class="img-fluid w-100 h-100" src="<?php echo $image_center ?>" alt="bike">
       </div>
       <div class="col-12 col-md-4 box p-4">
-        <img class="img-fluid w-100 h-100" src="<?php echo $image_right ?>" alt="bride">
+        <img class="img-fluid w-100 h-100 bride" src="<?php echo $image_right ?>" alt="bride">
       </div>
     </div>
   </div>
@@ -109,20 +118,20 @@ $carouselImage3 = get_field('carousel_image_3');
     <hr class="full-width">
     <div class="row pb-5 photo-process">
       <div class="col-12 col-md-6 col-lg-3 process pl-5">
-        <span class="numbers">1. </span><h5 class="d-inline">Lorem Ipsum</h5>
-        <p class="process-text ml-4 lt-font">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+        <span class="numbers">1. </span><h5 class="d-inline"><?php echo $step1 ?></h5>
+        <p class="process-text ml-4 lt-font"><?php echo $stepDetail1 ?></p>
       </div>
       <div class="col-12 col-md-6 col-lg-3 process pl-5">
-        <span class="numbers">2. </span><h5 class="d-inline">Lorem Ipsum</h5>
-        <p class="process-text ml-4 lt-font">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+        <span class="numbers">2. </span><h5 class="d-inline"><?php echo $step2 ?></h5>
+        <p class="process-text ml-4 lt-font"><?php echo $stepDetail2 ?></p>
       </div>
       <div class="col-12 col-md-6 col-lg-3 process pl-5">
-        <span class="numbers">3. </span><h5 class="d-inline">Lorem Ipsum</h5>
-        <p class="process-text ml-4 lt-font">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+        <span class="numbers">3. </span><h5 class="d-inline"><?php echo $step3 ?></h5>
+        <p class="process-text ml-4 lt-font"><?php echo $stepDetail3 ?></p>
       </div>
       <div class="col-12 col-md-6 col-lg-3 process pl-5">
-        <span class="numbers">4. </span><h5 class="d-inline">Lorem Ipsum</h5>
-        <p class="process-text ml-4 lt-font">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+        <span class="numbers">4. </span><h5 class="d-inline"><?php echo $step4 ?></h5>
+        <p class="process-text ml-4 lt-font"><?php echo $stepDetail4 ?></p>
       </div>
     </div>
   </div>
