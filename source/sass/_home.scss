@@ -22,8 +22,21 @@ li {
     outline-offset: -9px;
 }
 
+.txt-img {
+  margin: 0;
+  position: relative;
+  bottom: 300px;
+  left: 125px;
+  font-size: 20px;
+  color: white;
+  display: none;
+}
+
 .family:hover {
   opacity: 0.5;
+  .txt-img {
+    display:block;
+  }
 }
 
 .bride:hover {

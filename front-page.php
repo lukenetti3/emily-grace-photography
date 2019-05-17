@@ -34,6 +34,7 @@ $stepDetail4 = get_field('step_detail_4');
     <div class="row img-set-3">
       <div class="col-12 col-md-4 box p-4">
         <img class="img-fluid w-100 h-100 family" src="<?php echo $image_left ?>" alt="two kids">
+        <p class='txt-img'>Family</p>
       </div>
       <div class="col-12 col-md-4 box px-4 py-md-4 px-md-0">
         <img class="img-fluid w-100 h-100" src="<?php echo $image_center ?>" alt="bike">
