@@ -13,6 +13,7 @@ $paragraph2 = get_field('paragraph_2');
 
 $testimonialImage = get_field('testimonial_image');
 $testimonialText = get_field('testimonial_text');
+$testimonialSig = get_field('testimonial_signature');
 
 $carouselImage1 = get_field('carousel_image_1');
 $carouselImage2 = get_field('carousel_image_2');
@@ -32,15 +33,23 @@ $stepDetail4 = get_field('step_detail_4');
 <section id="section-1">
   <div class="container py-5 hero-section">
     <div class="row img-set-3">
-      <div class="col-12 col-md-4 box p-4">
-        <img class="img-fluid w-100 h-100 family" src="<?php echo $image_left ?>" alt="two kids">
-        <p class='txt-img'>Family</p>
+      <div class="col-12 col-md-4 box p-4 overlay-div">
+          <img class="img-fluid w-100 h-100 family" src="<?php echo $image_left ?>" alt="two kids">
+          <div class="overlay d-flex align-items-center justify-content-center">
+            <a href="<?php echo get_bloginfo('wpurl') ?>/information"><p class="overlay-txt">Lifestyle</p></a>
+          </div>
       </div>
-      <div class="col-12 col-md-4 box px-4 py-md-4 px-md-0">
+      <div class="col-12 col-md-4 box px-4 py-md-4 px-md-0 overlay-div">
         <img class="img-fluid w-100 h-100" src="<?php echo $image_center ?>" alt="bike">
+        <div class="overlay d-flex align-items-center justify-content-center">
+          <a href="<?php echo get_bloginfo('wpurl') ?>/contact"><p class="overlay-txt">Contact</p></a>
+        </div>
       </div>
-      <div class="col-12 col-md-4 box p-4">
+      <div class="col-12 col-md-4 box p-4 overlay-div">
         <img class="img-fluid w-100 h-100 bride" src="<?php echo $image_right ?>" alt="bride">
+        <div class="overlay d-flex align-items-center justify-content-center">
+          <a href="<?php echo get_bloginfo('wpurl') ?>/information"><p class="overlay-txt">Brides</p></a>
+        </div>
       </div>
     </div>
   </div>
@@ -50,7 +59,7 @@ $stepDetail4 = get_field('step_detail_4');
   <div class="container-fluid pt-5">
     <div class="row align-items-center">
       <div class="col-12 col-xl-6 bg-beige p-5-xl text-center">
-        <hr class="remove test-hr"><h2 class="d-inline px-5"><?php echo $heading1 ?></h2><hr class="test-hr">
+        <hr class="remove r-hr"><h2 class="d-inline px-5"><?php echo $heading1 ?></h2><hr class="r-hr">
         <p class="lead py-4 p-line-height">
           <?php echo $paragraph1 ?>
          </p>
@@ -59,7 +68,7 @@ $stepDetail4 = get_field('step_detail_4');
          </button>
       </div>
       <div class="col-12 col-xl-6 bg-grey p-5-xl text-center">
-        <hr class="remove test-hr"><h2 class="d-inline px-5"><?php echo $heading2 ?></h2><hr class="test-hr">
+        <hr class="remove r-hr"><h2 class="d-inline px-5"><?php echo $heading2 ?></h2><hr class="r-hr">
         <p class="lead py-4 p-line-height">
           <?php echo $paragraph2 ?>
          </p>
@@ -83,7 +92,7 @@ $stepDetail4 = get_field('step_detail_4');
           <p class="quote">"</p>
           <p class="lead p-line-height"><?php echo $testimonialText ?></p>
           <p class="lead p-line-height">
-            -Jane Doe
+            -<?php echo $testimonialSig ?>
           </p>
       </div>
     </div>

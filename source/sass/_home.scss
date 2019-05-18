@@ -1,46 +1,23 @@
+// This CSS file is for the home page
+
+// General layout CSS
 .btn-outline-primary {
   border-radius: 0;
   a {
     color: $wine;
   }
+
+  &:hover > a {
+    color: $light-grey;
+  }
 }
 
 li {
   list-style-type: none;
-  a:hover {
-    text-decoration: none;
-  }
 }
 
 .p-line-height {
   line-height: 2.5rem;
-}
-
-.img-set-3 {
-    border: 2px solid $wine;
-    outline: 2px solid $wine;
-    outline-offset: -9px;
-}
-
-.txt-img {
-  margin: 0;
-  position: relative;
-  bottom: 300px;
-  left: 125px;
-  font-size: 20px;
-  color: white;
-  display: none;
-}
-
-.family:hover {
-  opacity: 0.5;
-  .txt-img {
-    display:block;
-  }
-}
-
-.bride:hover {
-  opacity: 0.5;
 }
 
 .bg-grey {
@@ -55,7 +32,41 @@ li {
   padding: 7rem;
 }
 
-.test-hr {
+// Section 1 (Hero Section)
+.img-set-3 {
+    border: 2px solid $wine;
+    outline: 2px solid $wine;
+    outline-offset: -9px;
+}
+
+.overlay {
+  visibility: hidden;
+  background-color: rgba(216, 216, 216, 0.5);
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: calc(100% - 48px);
+  height: calc(100% - 48px);
+
+  .overlay-txt {
+    font-size: 32px;
+    color: white;
+    opacity: 1;
+  }
+}
+
+.overlay-div:hover:nth-child(odd) > div {
+  visibility: visible;
+}
+
+.overlay-div:hover:nth-child(even) > div {
+  visibility: visible;
+  left: 0;
+  width: 100%
+}
+
+// Section 2 (Bride vs Lifestyle)
+.r-hr {
   border-top: 2px solid $wine;
   display: inline-block;
   margin-bottom: 0.5rem;
@@ -63,7 +74,13 @@ li {
   width: 2rem;
 }
 
- .grid-container {
+// Section 3 (Testimonial Section)
+#section-3 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.grid-container {
    display: grid;
    grid-template-columns: 3fr 1fr 3fr;
    grid-template-rows: 1fr 5fr 1fr;
@@ -105,34 +122,13 @@ li {
   margin-bottom: -10px;
 }
 
-@media only screen and (max-width: 1200px) {
-  .grid-container {
-    display: block;
-    padding: 1rem;
-  }
-
-  .header-testimonial {
-    text-align: center;
-  }
-
-  .box-text {
-    height: 50vh;
-    margin-top: 10px;
-    padding: 1.5rem;
-  }
-}
-
-#section-3 {
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-}
-
+// Section 4 (Carousel Images)
 #section-4 {
   padding-bottom: 4rem;
 }
 
 .carousel  {
-  padding: 60px 0 30px 0;
+  padding: 45px 0 30px 0;
 }
 
 .wide-block {
@@ -142,26 +138,7 @@ li {
   height: 600px;
 }
 
-@media only screen and (max-width: 650px) {
-  .test-hr {
-    display: block;
-  }
-
-  .remove {
-    display: none;
-  }
-
-  .p-5-xl {
-    padding: 4rem;
-  }
-
-  .header-testimonial {
-    padding-top: -50px;
-    padding-bottom: 10px;
-  }
-}
-
-// Photography Process
+// Section 5 Photography Process
 .full-width {
   border-top: 1px solid $wine;
 }
@@ -174,15 +151,6 @@ li {
   border-right: 1px solid $wine;
   height: 150px;
   width: 300px;
-}
-
-@media only screen and (max-width: 1018px) {
-    .process:last-child {
-      border-right: 1px solid $wine;
-    }
-    .photo-process {
-      padding-right: 13px;
-    }
 }
 
 span {
@@ -214,8 +182,66 @@ i:last-child {
   margin-right: 3rem;
 }
 
+// Media Queries
+// Specific media query for photography process border
+@media only screen and (max-width: 1018px) {
+    .process:last-child {
+      border-right: 1px solid $wine;
+    }
+    .photo-process {
+      padding-right: 13px;
+    }
+}
+
+// Small screens
 @media only screen and (max-width: 650px) {
+  .r-hr {
+    display: block;
+  }
+
+  .remove {
+    display: none;
+  }
+
+  .p-5-xl {
+    padding: 4rem;
+  }
+
+  .header-testimonial {
+    padding-top: -50px;
+    padding-bottom: 10px;
+  }
+
+  .overlay-div:hover:nth-child(even) > div {
+    visibility: visible;
+    left: 24px;
+    top: 0;
+    width: calc(100% - 48px;);
+  }
+
+  #section-3 {
+    padding-top: 0.7rem;
+  }
+
   i:last-child {
      margin-right: 0;
+  }
+}
+
+// Medium screens for grid container only
+@media only screen and (max-width: 1200px) {
+  .grid-container {
+    display: block;
+    padding: 1rem;
+  }
+
+  .header-testimonial {
+    text-align: center;
+  }
+
+  .box-text {
+    height: 50vh;
+    margin-top: 10px;
+    padding: 1.5rem;
   }
 }

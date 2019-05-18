@@ -12,10 +12,6 @@ body {
   padding-top: 120px;
 }
 
-.lt-font {
-  font-weight: 300;
-}
-
 h1, h2, h3, h4, h5, p, a, li {
   color: $dark-grey;
 }
@@ -23,6 +19,16 @@ h1, h2, h3, h4, h5, p, a, li {
 h1 {
   font-size: 2.2vw;
 }
+
+a:hover {
+  text-decoration: none;
+}
+
+.lt-font {
+  font-weight: 300;
+}
+
+
 
 // Navbar contents
 #site-title {
@@ -50,7 +56,7 @@ h1 {
 }
 
 
-// Media Queries
+// Media Queries for small screen navbar
 @media only screen and (max-width: 991px) {
   .navbar-toggler {
     position: absolute;
