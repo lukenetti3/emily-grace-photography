@@ -1,3 +1,23 @@
 #about-section1 {
   padding: 100px 0;
 }
+
+hr {
+  border-top: 1px solid $wine;
+}
+
+.overlay-about {
+  position: absolute;
+  background-color: $beige;
+  height: 850px;
+  width: 575px;
+  right: 60px;
+  top: -50px;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 650px) {
+  .overlay-about {
+    display: none;
+  }
+}
