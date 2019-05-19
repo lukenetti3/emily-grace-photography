@@ -5945,12 +5945,12 @@
 		"oAP": "/build/LICENSE",
 		"oF": 0
 		},
-	"/page.php": {
+	"/page-about.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/page.php",
+		"oAP": "/build/page-about.php",
 		"oF": 0
 		},
 	"/phpcs.xml.dist": {
@@ -6043,6 +6043,19 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/source/sass/_about.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/sass/_about.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
 		},
 	"/source/sass/_general.scss": {
 		"aP": 1,
