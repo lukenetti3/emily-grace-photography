@@ -1,0 +1,13 @@
+#information-section1 {
+  padding-top: 130px;
+}
+
+.overlay-info {
+  position: absolute;
+  background-color: $beige;
+  height: 30rem;
+  width: 45rem;
+  left: 75px;
+  top: -50px;
+  z-index: -1;
+}

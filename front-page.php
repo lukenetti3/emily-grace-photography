@@ -30,7 +30,7 @@ $stepDetail4 = get_field('step_detail_4');
 ?>
 
 
-<section id="section-1" class="section-1">
+<section id="section-1" class="nav-scroll">
   <div class="container py-5 hero-section">
     <div class="row img-set-3">
       <div class="col-12 col-md-4 box p-4 overlay-div">
