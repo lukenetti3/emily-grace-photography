@@ -39,16 +39,16 @@ $stepDetail4 = get_field('step_detail_4');
             <a href="<?php echo get_bloginfo('wpurl') ?>/information"><p class="overlay-txt">Lifestyle</p></a>
           </div>
       </div>
-      <div class="col-12 col-md-4 box px-4 py-md-4 px-md-0 overlay-div">
+      <div class="col-12 col-md-4 box px-4 py-md-4 px-md-0 overlay-div d-none d-sm-block">
         <img class="img-fluid w-100 h-100" src="<?php echo $image_center ?>" alt="bike">
         <div class="overlay d-flex align-items-center justify-content-center">
           <a href="<?php echo get_bloginfo('wpurl') ?>/contact"><p class="overlay-txt">Contact</p></a>
         </div>
       </div>
-      <div class="col-12 col-md-4 box p-4 overlay-div">
+      <div class="col-12 col-md-4 box p-4 overlay-div d-none d-sm-block">
         <img class="img-fluid w-100 h-100 bride" src="<?php echo $image_right ?>" alt="bride">
         <div class="overlay d-flex align-items-center justify-content-center">
-          <a href="<?php echo get_bloginfo('wpurl') ?>/information"><p class="overlay-txt">Brides</p></a>
+          <a href="<?php echo get_bloginfo('wpurl') ?>/information#go-here"><p class="overlay-txt">Brides</p></a>
         </div>
       </div>
     </div>
@@ -60,7 +60,7 @@ $stepDetail4 = get_field('step_detail_4');
     <div class="row align-items-center">
       <div class="col-12 col-xl-6 bg-beige p-5-xl text-center">
         <hr class="remove r-hr"><h2 class="d-inline px-5"><?php echo $heading1 ?></h2><hr class="r-hr">
-        <p class="lead py-4 p-line-height">
+        <p class="lead py-4 p-line-height landing-text">
           <?php echo $paragraph1 ?>
          </p>
          <button class="btn btn-outline-primary">
@@ -69,7 +69,7 @@ $stepDetail4 = get_field('step_detail_4');
       </div>
       <div class="col-12 col-xl-6 bg-grey p-5-xl text-center">
         <hr class="remove r-hr"><h2 class="d-inline px-5"><?php echo $heading2 ?></h2><hr class="r-hr">
-        <p class="lead py-4 p-line-height">
+        <p class="lead py-4 p-line-height landing-text">
           <?php echo $paragraph2 ?>
          </p>
          <button class="btn btn-outline-primary">

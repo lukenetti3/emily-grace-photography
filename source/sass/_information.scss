@@ -2,7 +2,7 @@
   padding-top: 130px;
 }
 
-.overlay-info {
+.overlay-beige {
   position: absolute;
   background-color: $beige;
   height: 30rem;
@@ -10,4 +10,78 @@
   left: 75px;
   top: -50px;
   z-index: -1;
+}
+
+.overlay-grey {
+  position: absolute;
+  background-color: $light-grey;
+  height: 30rem;
+  width: 45rem;
+  left: -35px;
+  top: -50px;
+  z-index: -1;
+}
+
+.md-line-height {
+  line-height: 1.8rem;
+}
+
+#information-section2 {
+  padding-top: 160px;
+}
+
+#information-section3 {
+  padding-top: 80px;
+}
+
+#information-section4 {
+  padding: 160px 0 100px 0;
+}
+
+.card-subtitle-update {
+  color: $dark-grey;
+  font-weight: 300;
+}
+
+.card-body-beige {
+  background-color: $beige;
+}
+
+.card-body-grey {
+  background-color: $light-grey;
+}
+
+// Small Screen Media Query
+@media only screen and (max-width: 900px) {
+  .overlay-grey {
+    display: none;
+  }
+
+  .overlay-beige {
+    display: none;
+  }
+
+  #information-section1 {
+    padding: 30px 4px 0 4px;
+  }
+
+  #information-section2 {
+    padding: 50px 4px 0 4px;
+  }
+
+  #information-section3 {
+    padding: 30px 4px 0 4px;
+  }
+
+  #information-section4 {
+    padding: 30px 4px 30px 4px;
+  }
+
+  .block-txt {
+    padding-top: 30px;
+  }
+
+  .paddingL-0 {
+    padding-left: 0;
+  }
 }

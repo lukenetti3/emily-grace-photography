@@ -17,8 +17,19 @@ hr {
   z-index: -1;
 }
 
-@media only screen and (max-width: 650px) {
+.about-line-height {
+  line-height: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
   .overlay-about {
     display: none;
+  }
+  #about-section1 {
+    padding: 30px 4px 30px 4px;
+  }
+
+  .sm-padding {
+    padding: 1rem 0 0.5rem 0;
   }
 }
