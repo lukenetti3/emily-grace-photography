@@ -5961,6 +5961,22 @@
 		"oAP": "/build/page-information.php",
 		"oF": 0
 		},
+	"/page-portfolio-wedding.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/page-portfolio-wedding.php",
+		"oF": 0
+		},
+	"/page-portfolio.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/page-portfolio.php",
+		"oF": 0
+		},
 	"/phpcs.xml.dist": {
 		"cB": 0,
 		"ft": 8192,
@@ -6100,6 +6116,32 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/build/sass/_information.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/source/sass/_portfolio-wedding.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/sass/_portfolio-wedding.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/source/sass/_portfolio.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/sass/_portfolio.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1

@@ -1,0 +1,60 @@
+#portfolio-section1 {
+  padding: 80px 0 80px 0;
+}
+
+.r-hrUpdate {
+  border-top: 2px solid $wine;
+  display: inline-block;
+  margin-top: 1.4rem;
+  padding: 0 2rem;
+  width: 25rem;
+}
+
+.workTitle {
+  padding: 0 15px;
+}
+
+// Overlay Portfolio Section
+.overlay-portfolio {
+  visibility: hidden;
+  background-color: rgba(216, 216, 216, 0.5);
+  position: absolute;
+  top: 0;
+  left: 8px;
+  width: calc(100% - 16px);
+  height: 100%;
+
+  .overlay-Ptxt {
+    font-size: 32px;
+    color: white;
+    opacity: 1;
+  }
+}
+
+.overlay-div-portfolio:hover:nth-child(odd) > div {
+  visibility: visible;
+}
+
+.overlay-div-portfolio:hover:nth-child(even) > div {
+  visibility: visible;
+  left: 8px;
+  width: calc(100% - 16px);
+}
+
+
+@media only screen and (max-width: 1000px) {
+  #portfolio-section1 {
+    padding-top: 30px;
+  }
+
+  .myWorkImg {
+    padding-top: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .r-hrUpdate {
+    display: none;
+  }
+}
