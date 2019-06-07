@@ -28,7 +28,7 @@ $bottomRow3 = get_field('bottom_row_image_3');
         <div class="col-12 col-lg-4 px-2 overlay-div-portfolio">
           <img class="img-fluid w-100 h-100 myWorkImg" src="<?php echo $topRow2 ?>">
           <div class="overlay-portfolio d-flex align-items-center justify-content-center">
-            <a href="<?php echo get_bloginfo('wpurl') ?>/information"><p class="overlay-Ptxt">See More</p></a>
+            <a href="<?php echo get_bloginfo('wpurl') ?>/portfolio-engagement"><p class="overlay-Ptxt">See More</p></a>
           </div>
         </div>
         <div class="col-12 col-lg-4 px-2 overlay-div-portfolio">

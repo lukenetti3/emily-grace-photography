@@ -2,11 +2,30 @@
   padding: 80px 0;
 }
 
+// .gallery {
+//   column-count: 3;
+//   column-width: 33%;
+//   column-fill: auto;
+//
+//   img {
+//     padding: 0.5rem 0;
+//   }
+// }
+
 .gallery {
-  column-count: 3;
-  column-width: 33%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  grid-auto-flow: row;
 
   img {
     padding: 0.5rem 0;
+    float: left;
   }
 }
+
+// .gallery {
+//   display: flex;
+//   flex-wrap: wrap;
+//   border: 2px solid red;
+// }

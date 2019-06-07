@@ -1,7 +1,7 @@
-<?php get_header() ?>
+<?php get_header();
 
+$images = get_field('gallery_engagement');
 
+include( locate_template( 'template-parts/content-page.php', false, false ) );
 
-
-
-<?php get_footer() ?>
+get_footer() ?>
