@@ -2,8 +2,10 @@
 
 the_post(); ?>
 
-<section class="gallery">
-  <?php the_content(); ?>
+<section>
+  <div class="container nav-scroll image-gallery">
+      <?php the_content(); ?>
+  </div>
 </section>
 
 
