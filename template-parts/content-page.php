@@ -9,33 +9,20 @@
 
 ?>
 
-<?php
-if( $images ): ?>
-    <section class="portfolio-gallery nav-scroll">
-      <div class="container">
-        <div class="gallery">
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-            <?php foreach( $images as $image ): ?>
 
-              <?php
+	<?php emily_gphotography_post_thumbnail(); ?>
 
-							unset($content);
+	<div class="entry-content">
+		<?php
+		the_content();
 
-              $content .= '<a href="'. $image['url'] .'">';
-              $content .= '<img class="img-fluid" src="'. $image['url'] .'" >';
-              $content .= '</a>';
-              if ( function_exists('slb_activate') ){
-                $content = slb_activate($content);
-              }
+		wp_link_pages( array(
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'emily-gphotography' ),
+			'after'  => '</div>',
+		) );
+		?>
+	</div><!-- .entry-content -->
 
-							echo $content;
-
-              endforeach;
-
-							?>
-
-        </div>
-      </div>
-    </section>
-
-<?php endif; ?>
+</article><!-- #post-<?php the_ID(); ?> -->

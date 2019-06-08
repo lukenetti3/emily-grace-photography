@@ -1,9 +1,10 @@
 <?php get_header();
 
-$images = get_field('gallery_wedding');
+the_post(); ?>
 
-include( locate_template( 'template-parts/content-page.php', false, false ) );
+<section class="gallery">
+  <?php the_content(); ?>
+</section>
 
-?>
 
 <?php get_footer() ?>

@@ -1,7 +1,13 @@
 <?php get_header();
 
-$images = get_field('gallery_engagement');
+// $images = get_field('gallery_engagement');
+//
+// include( locate_template( 'template-parts/content-page.php', false, false ) );
+the_post(); ?>
 
-include( locate_template( 'template-parts/content-page.php', false, false ) );
+<section>
+  <?php the_content(); ?>
+</section>
 
-get_footer() ?>
+
+<?php get_footer() ?>
