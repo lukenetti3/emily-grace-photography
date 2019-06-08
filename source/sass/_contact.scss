@@ -1,0 +1,66 @@
+#contact-page-section {
+  padding-top: 100px;
+  margin-top: 75px;
+  margin-bottom: 150px;
+  border: 2px solid $wine;
+  outline: 2px solid $wine;
+  outline-offset: -9px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.overlay-contact {
+  position: absolute;
+  background-color: $beige;
+  height: 41rem;
+  width: 27rem;
+  left: 20px;
+  top: -45px;
+  z-index: -1;
+}
+
+.wpcf7 input[type="submit"] {
+  width: 5rem;
+  height: 2rem;
+  background-color: transparent;
+  border: 1px solid $wine;
+  color: $wine;
+
+  &:hover {
+    background-color: $wine;
+    color: $light-grey;
+  }
+}
+
+div .wpcf7-form {
+  padding-bottom: 3rem;
+}
+
+.wpcf7-form textarea {
+  height: 150px;
+}
+
+@media only screen and (max-width: 900px) {
+  .overlay-contact {
+    display: none;
+  }
+
+  .wpcf7 input.wpcf7-text {
+    width: 85%;
+  }
+
+  .wpcf7 textarea.wpcf7-textarea {
+    width: 85%;
+  }
+  .wpcf7-form textarea {
+    height: 150px;
+  }
+
+  div .wpcf7-form {
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+  }
+}

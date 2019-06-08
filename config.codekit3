@@ -5953,6 +5953,14 @@
 		"oAP": "/build/page-about.php",
 		"oF": 0
 		},
+	"/page-contact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/page-contact.php",
+		"oF": 0
+		},
 	"/page-information.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -6093,6 +6101,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/build/sass/_about.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/source/sass/_contact.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/sass/_contact.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
