@@ -1,12 +1,5 @@
 <?php get_header();
 
-the_post(); ?>
+get_template_part('template-parts/content-images');
 
-<section>
-  <div class="container nav-scroll image-gallery">
-      <?php the_content(); ?>
-  </div>
-</section>
-
-
-<?php get_footer() ?>
+get_footer() ?>

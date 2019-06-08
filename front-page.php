@@ -36,19 +36,19 @@ $stepDetail4 = get_field('step_detail_4');
       <div class="col-12 col-md-4 box p-4 overlay-div">
           <img class="img-fluid w-100 h-100 family" src="<?php echo $image_left ?>" alt="two kids">
           <div class="overlay d-flex align-items-center justify-content-center">
-            <a href="<?php echo get_bloginfo('wpurl') ?>/information"><p class="overlay-txt">Lifestyle</p></a>
+            <a href="<?php echo get_bloginfo('wpurl') ?>/information"><p class="overlay-txt text-center">Lifestyle</p></a>
           </div>
       </div>
       <div class="col-12 col-md-4 box px-4 py-md-4 px-md-0 overlay-div d-none d-sm-block">
         <img class="img-fluid w-100 h-100" src="<?php echo $image_center ?>" alt="bike">
         <div class="overlay d-flex align-items-center justify-content-center">
-          <a href="<?php echo get_bloginfo('wpurl') ?>/contact"><p class="overlay-txt">Contact</p></a>
+          <a href="<?php echo get_bloginfo('wpurl') ?>/contact"><p class="overlay-txt text-center">Contact</p></a>
         </div>
       </div>
       <div class="col-12 col-md-4 box p-4 overlay-div d-none d-sm-block">
         <img class="img-fluid w-100 h-100 bride" src="<?php echo $image_right ?>" alt="bride">
         <div class="overlay d-flex align-items-center justify-content-center">
-          <a href="<?php echo get_bloginfo('wpurl') ?>/information#go-here"><p class="overlay-txt">Brides</p></a>
+          <a href="<?php echo get_bloginfo('wpurl') ?>/information#go-here"><p class="overlay-txt text-center">Brides</p></a>
         </div>
       </div>
     </div>

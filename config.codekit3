@@ -6198,6 +6198,14 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/template-parts/content-images.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/template-parts/content-images.php",
+		"oF": 0
+		},
 	"/template-parts/content-none.php": {
 		"cB": 0,
 		"ft": 8192,
