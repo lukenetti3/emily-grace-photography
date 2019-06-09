@@ -17,6 +17,18 @@ $journeyPR = get_field('paragraph_right');
         <div class="row">
           <div class="col-12">
             <p class="lt-font about-line-height"><?php echo $aboutTxt ?></p>
+            <div class="cta pt-5">
+
+              <!-- Finish making updates here as to where button should go -->
+                <div class="d-flex justify-content-start">
+                  <div>
+                    <button class="btn btn-outline-primary cta-button">
+                      <a href="#">Click Here!</a>
+                    </button>
+                  </div>
+                </div>
+
+            </div>
           </div>
         </div>
       </div>
