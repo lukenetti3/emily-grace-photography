@@ -29,7 +29,7 @@ li {
 }
 
 .p-5-xl {
-  padding: 7rem;
+  padding: 11vh;
 }
 
 // Section 1 (Hero Section)
@@ -181,7 +181,7 @@ footer {
   }
 }
 
-i:last-child {
+#footer-icon-margin {
   margin-right: 3rem;
 }
 
@@ -248,7 +248,6 @@ i:last-child {
   }
 
   .box-text {
-    height: 50vh;
     margin-top: 10px;
     padding: 1.5rem;
   }

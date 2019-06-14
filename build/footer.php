@@ -18,8 +18,8 @@
 		<div class="row">
 			<div class="col-6 text-right pr-5 footer-left">
 				<p class="lead">Emily Grace Photography</p>
-				<i class="fab fa-instagram fa-2x icons px-3"></i>
-				<i class="fab fa-facebook-f fa-2x icons px-3"></i>
+				<a href="https://www.instagram.com/emilynetti/" target="_blank"><i class="fab fa-instagram fa-2x icons px-3"></i></a>
+				<a href="https://www.facebook.com/emilynetti/" id="footer-icon-margin" target="_blank"><i class="fab fa-facebook-f fa-2x icons px-3"></i></a>
 			</div>
 
 			<div class="col-6 pl-5 footer-items">

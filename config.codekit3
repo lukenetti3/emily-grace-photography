@@ -6192,7 +6192,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/build/css/style.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 3,
 		"uL": 1
 		},
@@ -6205,7 +6205,7 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/build/sass/variables/_bootstrap.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -6267,8 +6267,8 @@
 "projectAttributes": {
 	"creationDate": 578172455.38755202,
 	"displayValue": "emily-gphotography",
-	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_purple",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "brackets_gray",
 	"iconImageWasSetByUser": 1,
 	"lastBuiltDate": 578530858.606758
 	},

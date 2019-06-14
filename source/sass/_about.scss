@@ -21,10 +21,21 @@ hr {
   line-height: 2rem;
 }
 
+.fab {
+  color: $dark-grey;
+  margin: 0;
+}
+
+.social-red {
+  color: $wine;
+}
+
+
 .cta-button {
   background-color: transparent;
   border: 1px solid $wine;
   color: $wine;
+  margin-bottom: 2rem;
 
   &:hover {
     background-color: $wine;

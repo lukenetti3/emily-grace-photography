@@ -32,6 +32,11 @@ $BrideBlockText = get_field('bride_block_text');
           <li class="py-2 lt-font md-line-height"><?php echo $bLifestyle2 ?></li>
           <li class="py-2 lt-font md-line-height"><?php echo $bLifestyle3 ?></li>
         </ul>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-outline-primary cta-button">
+            <a href="<?php echo get_bloginfo('wpurl') ?>/contact">Get Started</a>
+          </button>
+        </div>
       </div>
       <div class="col-12 col-lg-8">
         <div class="overlay-beige"></div>
@@ -74,6 +79,11 @@ $BrideBlockText = get_field('bride_block_text');
           <li class="py-2 lt-font md-line-height"><?php echo $bBride2 ?></li>
           <li class="py-2 lt-font md-line-height"><?php echo $bBride3 ?></li>
         </ul>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-outline-primary cta-button">
+            <a href="<?php echo get_bloginfo('wpurl') ?>/contact">Get Started</a>
+          </button>
+        </div>
       </div>
       <div class="col-12 col-lg-8 order-lg-first">
         <div class="overlay-grey"></div>

@@ -19,12 +19,13 @@ $journeyPR = get_field('paragraph_right');
             <p class="lt-font about-line-height"><?php echo $aboutTxt ?></p>
             <div class="cta pt-5">
 
-              <!-- Finish making updates here as to where button should go -->
-                <div class="d-flex justify-content-start">
+                <div class="d-flex justify-content-between">
                   <div>
-                    <button class="btn btn-outline-primary cta-button">
-                      <a href="#">Click Here!</a>
-                    </button>
+                    <p class="social-red pb-4">Follow my journey on socail media</p>
+                  </div>
+                  <div>
+                    <a href="https://www.instagram.com/emilynetti/" target="_blank"><i class="fab fa-instagram fa-lg icons social-red"></i></a>
+            				<a href="https://www.facebook.com/emilynetti/" target="_blank"><i class="fab fa-facebook-f fa-lg icons pl-4 social-red"></i></a>
                   </div>
                 </div>
 

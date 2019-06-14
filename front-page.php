@@ -34,19 +34,19 @@ $stepDetail4 = get_field('step_detail_4');
   <div class="container py-5 hero-section">
     <div class="row img-set-3">
       <div class="col-12 col-md-4 box p-4 overlay-div">
-          <img class="img-fluid w-100 h-100 family" src="<?php echo $image_left ?>" alt="two kids">
+          <img class="img-fluid w-100 h-100 wide-block family" src="<?php echo $image_left ?>" alt="two kids">
           <div class="overlay d-flex align-items-center justify-content-center">
             <a href="<?php echo get_bloginfo('wpurl') ?>/information"><p class="overlay-txt text-center">Lifestyle</p></a>
           </div>
       </div>
       <div class="col-12 col-md-4 box px-4 py-md-4 px-md-0 overlay-div d-none d-sm-block">
-        <img class="img-fluid w-100 h-100" src="<?php echo $image_center ?>" alt="bike">
+        <img class="img-fluid w-100 h-100 wide-block" src="<?php echo $image_center ?>" alt="bike">
         <div class="overlay d-flex align-items-center justify-content-center">
           <a href="<?php echo get_bloginfo('wpurl') ?>/contact"><p class="overlay-txt text-center">Contact</p></a>
         </div>
       </div>
       <div class="col-12 col-md-4 box p-4 overlay-div d-none d-sm-block">
-        <img class="img-fluid w-100 h-100 bride" src="<?php echo $image_right ?>" alt="bride">
+        <img class="img-fluid w-100 h-100 bride wide-block" src="<?php echo $image_right ?>" alt="bride">
         <div class="overlay d-flex align-items-center justify-content-center">
           <a href="<?php echo get_bloginfo('wpurl') ?>/information#go-here"><p class="overlay-txt text-center">Brides</p></a>
         </div>
@@ -64,7 +64,7 @@ $stepDetail4 = get_field('step_detail_4');
           <?php echo $paragraph1 ?>
          </p>
          <button class="btn btn-outline-primary">
-           <a href="#">Click Here</a>
+           <a href="<?php echo get_bloginfo('wpurl') ?>/information#go-here">Click Here</a>
          </button>
       </div>
       <div class="col-12 col-xl-6 bg-grey p-5-xl text-center">
@@ -73,7 +73,7 @@ $stepDetail4 = get_field('step_detail_4');
           <?php echo $paragraph2 ?>
          </p>
          <button class="btn btn-outline-primary">
-           <a href="#">Click Here</a>
+           <a href="<?php echo get_bloginfo('wpurl') ?>/information">Click Here</a>
          </button>
       </div>
     </div>
@@ -143,6 +143,16 @@ $stepDetail4 = get_field('step_detail_4');
         <span class="numbers">4. </span><h5 class="d-inline"><?php echo $step4 ?></h5>
         <p class="process-text ml-4 lt-font"><?php echo $stepDetail4 ?></p>
       </div>
+    </div>
+  </div>
+</section>
+
+<section id="section-6">
+  <div class="container d-flex justify-content-center">
+    <div>
+      <button class="btn btn-outline-primary cta-button">
+        <a href="<?php echo get_bloginfo('wpurl') ?>/portfolio">See The Portfolio</a>
+      </button>
     </div>
   </div>
 </section>
