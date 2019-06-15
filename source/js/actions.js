@@ -13,5 +13,16 @@
            }
        });
       }
-  });
+
+      // Scroll for animation
+      $(window).scroll(function(){
+        var windowScrollTop = $(this).scrollTop();
+
+        if(windowScrollTop>900){
+          $(".appear").addClass("appearGo");
+          $(".box-img img").addClass("fadeAnimateRight");
+          $(".box-text").addClass("fadeAnimateLeft");
+        }
+      });
+    });
 })( jQuery );

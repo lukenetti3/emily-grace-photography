@@ -83,15 +83,15 @@ $stepDetail4 = get_field('step_detail_4');
 <section id="section-3">
     <div class="grid-container">
       <div class="grid-item header-testimonial">
-        <h2>Testimonial</h2>
+        <h2 class="appear">Testimonial</h2>
       </div>
       <div class="grid-item box-img">
         <img class="" src="<?php echo $testimonialImage ?>" alt="testimonial image">
       </div>
       <div class="grid-item box-text text-center">
-          <p class="quote">"</p>
-          <p class="lead p-line-height"><?php echo $testimonialText ?></p>
-          <p class="lead p-line-height">
+          <p class="quote appear">"</p>
+          <p class="lead p-line-height appear"><?php echo $testimonialText ?></p>
+          <p class="lead p-line-height appear">
             -<?php echo $testimonialSig ?>
           </p>
       </div>
