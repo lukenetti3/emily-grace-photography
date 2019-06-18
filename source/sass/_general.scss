@@ -8,6 +8,15 @@ html, body {
     font-family: 'Roboto Slab', serif;
 }
 
+.special-font {
+  font-family: 'Satisfy', cursive;
+  position: relative;
+  right: 7rem;
+  z-index: 99;
+  font-size: 100px;
+  color: $wine;
+}
+
 body {
   padding-top: 120px;
 }
@@ -76,5 +85,9 @@ a:hover {
 
   .hero-section {
     padding-top: 0;
+  }
+  .special-font {
+    position: relative;
+    right: 0;
   }
 }

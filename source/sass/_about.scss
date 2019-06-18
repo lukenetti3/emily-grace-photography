@@ -32,14 +32,21 @@ hr {
 
 
 .cta-button {
-  background-color: transparent;
+  background-color: $wine;
   border: 1px solid $wine;
-  color: $wine;
+  color: white;
   margin-bottom: 2rem;
 
+  a {
+    color: white;
+  }
+
   &:hover {
-    background-color: $wine;
-    color: $light-grey;
+    background-color: transparent;
+    color: $wine;
+    a {
+      color: $wine;
+    }
   }
 }
 

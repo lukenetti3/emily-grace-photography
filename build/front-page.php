@@ -19,14 +19,13 @@ $carouselImage1 = get_field('carousel_image_1');
 $carouselImage2 = get_field('carousel_image_2');
 $carouselImage3 = get_field('carousel_image_3');
 
-$step1 = get_field('step_1');
-$step2 = get_field('step_2');
-$step3 = get_field('step_3');
-$step4 = get_field('step_4');
-$stepDetail1 = get_field('step_detail_1');
-$stepDetail2 = get_field('step_detail_2');
-$stepDetail3 = get_field('step_detail_3');
-$stepDetail4 = get_field('step_detail_4');
+$step1Img = get_field('step_1_image');
+$step2Img = get_field('step_2_image');
+$step3Img = get_field('step_3_image');
+$step1Text = get_field('step_1_text');
+$step2Text = get_field('step_2_text');
+$step3Text = get_field('step_3_text');
+
 ?>
 
 
@@ -63,7 +62,7 @@ $stepDetail4 = get_field('step_detail_4');
         <p class="lead py-4 p-line-height landing-text">
           <?php echo $paragraph1 ?>
          </p>
-         <button class="btn btn-outline-primary">
+         <button class="p-2 mb-4 cta-button">
            <a href="<?php echo get_bloginfo('wpurl') ?>/information#go-here">Click Here</a>
          </button>
       </div>
@@ -72,7 +71,7 @@ $stepDetail4 = get_field('step_detail_4');
         <p class="lead py-4 p-line-height landing-text">
           <?php echo $paragraph2 ?>
          </p>
-         <button class="btn btn-outline-primary">
+         <button class="p-2 mb-4 cta-button">
            <a href="<?php echo get_bloginfo('wpurl') ?>/information">Click Here</a>
          </button>
       </div>
@@ -122,26 +121,48 @@ $stepDetail4 = get_field('step_detail_4');
   </div>
 </section>
 
-<section id="section-5">
+<section id="section-5" class="pb-5">
   <div class="container">
-    <h2 class="text-center pb-5">Photography Process</h2>
-    <hr class="full-width">
-    <div class="row pb-5 photo-process">
-      <div class="col-12 col-md-6 col-lg-3 process pl-5">
-        <span class="numbers">1. </span><h5 class="d-inline"><?php echo $step1 ?></h5>
-        <p class="process-text ml-4 lt-font"><?php echo $stepDetail1 ?></p>
+    <div class="rotator rotate-1 show">
+      <div class="row">
+        <div class="col-12 col-lg-6 steps">
+          <h2><span class="pr-4 special-font">01</span>Photography Process</h2>
+          <p class="lead pb-4 p-line-height landing-text"><?php echo $step1Text ?></p>
+          <div class="button-center">
+            <button class="p-2 mb-4 cta-button">Process<i class="pl-2 fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 order-lg-first text-center">
+          <img class="img-fluid w-75 h-100" src="<?php echo $step1Img ?>" alt="">
+        </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-3 process pl-5">
-        <span class="numbers">2. </span><h5 class="d-inline"><?php echo $step2 ?></h5>
-        <p class="process-text ml-4 lt-font"><?php echo $stepDetail2 ?></p>
+    </div>
+    <div class="rotator rotate-2">
+      <div class="row">
+        <div class="col-12 col-lg-6 steps">
+          <h2><span class="pr-4 special-font">02</span> Photography Process</h2>
+          <p class="lead pb-4 p-line-height landing-text"><?php echo $step2Text ?></p>
+          <div class="button-center">
+            <button class="p-2 mb-4 cta-button">Process<i class="pl-2 fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 order-lg-first text-center">
+          <img class="img-fluid w-75 h-100" src="<?php echo $step2Img ?>" alt="">
+        </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-3 process pl-5">
-        <span class="numbers">3. </span><h5 class="d-inline"><?php echo $step3 ?></h5>
-        <p class="process-text ml-4 lt-font"><?php echo $stepDetail3 ?></p>
-      </div>
-      <div class="col-12 col-md-6 col-lg-3 process pl-5">
-        <span class="numbers">4. </span><h5 class="d-inline"><?php echo $step4 ?></h5>
-        <p class="process-text ml-4 lt-font"><?php echo $stepDetail4 ?></p>
+    </div>
+    <div class="rotator rotate-3">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h2><span class="pr-4 special-font">03</span> Photography Process</h2>
+          <p class="lead pb-4 p-line-height landing-text"><?php echo $step3Text ?></p>
+          <div class="button-center">
+            <button class="p-2 mb-4 cta-button">Process<i class="pl-2 fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 order-lg-first text-center">
+          <img class="img-fluid w-75 h-100" src="<?php echo $step3Img ?>" alt="">
+        </div>
       </div>
     </div>
   </div>
@@ -150,7 +171,7 @@ $stepDetail4 = get_field('step_detail_4');
 <section id="section-6">
   <div class="container d-flex justify-content-center">
     <div>
-      <button class="btn btn-outline-primary cta-button">
+      <button class="p-2 mb-4 cta-button">
         <a href="<?php echo get_bloginfo('wpurl') ?>/portfolio">See The Portfolio</a>
       </button>
     </div>

@@ -1,17 +1,5 @@
 // This CSS file is for the home page
 
-// General layout CSS
-.btn-outline-primary {
-  border-radius: 0;
-  a {
-    color: $wine;
-  }
-
-  &:hover > a {
-    color: $light-grey;
-  }
-}
-
 li {
   list-style-type: none;
 }
@@ -213,26 +201,21 @@ li {
 }
 
 // Section 5 Photography Process
-.full-width {
-  border-top: 1px solid $wine;
+.rotator {
+  display: none;
+  img {
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
 }
 
-.numbers {
-  font-size: 20px;
+.show {
+  display: block;
 }
 
-.process:not(:last-child) {
-  border-right: 1px solid $wine;
-  height: 150px;
-  width: 300px;
-}
-
-span {
-  color: $dark-grey;
-}
-
-.process-text {
-  text-align: left;
+// Section 6
+#section-6 {
+  padding-top: 3rem;
 }
 
 // Footer CSS
@@ -305,6 +288,11 @@ footer {
 
   i:last-child {
      margin-right: 0;
+  }
+
+  .button-center {
+    display: flex;
+    justify-content: center;
   }
 }
 

@@ -24,5 +24,27 @@
           $(".box-text").addClass("fadeAnimateLeft");
         }
       });
+
+      // Photography Process jQuery
+      var slide1 = ".rotate-1";
+      var slide2 = ".rotate-2";
+      var slide3 = ".rotate-3";
+
+      $("button").click(function() {
+        if($(slide1).hasClass("show")) {
+          $(slide1).removeClass("show");
+          $(slide2).addClass("show");
+        }
+        else if($(slide2).hasClass("show")) {
+          $(slide2).removeClass("show");
+          $(slide3).addClass("show");
+        }
+        else if($(slide3).hasClass("show")) {
+          $(slide3).removeClass("show");
+          $(slide1).addClass("show");
+        }
+      });
+
+
     });
 })( jQuery );
