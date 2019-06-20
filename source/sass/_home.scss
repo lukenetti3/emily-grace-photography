@@ -201,12 +201,21 @@ li {
 }
 
 // Section 5 Photography Process
+#section-5 {
+  padding-top: 40px;
+}
+
 .rotator {
   display: none;
   img {
     object-fit: cover;
     object-position: 50% 50%;
+    overflow: hidden;
   }
+}
+
+.steps-img {
+  height: 645px;
 }
 
 .show {

@@ -122,46 +122,46 @@ $step3Text = get_field('step_3_text');
 </section>
 
 <section id="section-5" class="pb-5">
-  <div class="container">
+  <div class="container container-5">
     <div class="rotator rotate-1 show">
       <div class="row">
-        <div class="col-12 col-lg-6 steps">
-          <h2><span class="pr-4 special-font">01</span>Photography Process</h2>
-          <p class="lead pb-4 p-line-height landing-text"><?php echo $step1Text ?></p>
+        <div class="col-12 col-lg-6 pl-5">
+          <span class="pr-4 special-font">01</span><h2 class="pb-3">Photography Process</h2>
+          <p class="lt-font about-line-height pb-4"><?php echo $step1Text ?></p>
           <div class="button-center">
             <button class="p-2 mb-4 cta-button">Process<i class="pl-2 fas fa-arrow-right"></i></button>
           </div>
         </div>
-        <div class="col-12 col-lg-6 order-lg-first text-center">
-          <img class="img-fluid w-75 h-100" src="<?php echo $step1Img ?>" alt="">
+        <div class="col-12 col-lg-6 order-lg-first text-center steps-img">
+          <img class="img-fluid w-100 h-100" src="<?php echo $step1Img ?>" alt="">
         </div>
       </div>
     </div>
     <div class="rotator rotate-2">
       <div class="row">
-        <div class="col-12 col-lg-6 steps">
-          <h2><span class="pr-4 special-font">02</span> Photography Process</h2>
-          <p class="lead pb-4 p-line-height landing-text"><?php echo $step2Text ?></p>
+        <div class="col-12 col-lg-6 pl-5">
+          <span class="pr-4 special-font">02</span><h2 class="pb-3">Photography Process</h2>
+          <p class="lt-font about-line-height pb-4"><?php echo $step2Text ?></p>
           <div class="button-center">
             <button class="p-2 mb-4 cta-button">Process<i class="pl-2 fas fa-arrow-right"></i></button>
           </div>
         </div>
-        <div class="col-12 col-lg-6 order-lg-first text-center">
-          <img class="img-fluid w-75 h-100" src="<?php echo $step2Img ?>" alt="">
+        <div class="col-12 col-lg-6 order-lg-first text-center steps-img">
+          <img class="img-fluid w-100 h-100" src="<?php echo $step2Img ?>" alt="">
         </div>
       </div>
     </div>
     <div class="rotator rotate-3">
       <div class="row">
-        <div class="col-12 col-lg-6">
-          <h2><span class="pr-4 special-font">03</span> Photography Process</h2>
-          <p class="lead pb-4 p-line-height landing-text"><?php echo $step3Text ?></p>
+        <div class="col-12 col-lg-6 pl-5">
+          <span class="pr-4 special-font">03</span><h2 class="pb-3">Photography Process</h2>
+          <p class="lt-font about-line-height pb-4"><?php echo $step3Text ?></p>
           <div class="button-center">
             <button class="p-2 mb-4 cta-button">Process<i class="pl-2 fas fa-arrow-right"></i></button>
           </div>
         </div>
-        <div class="col-12 col-lg-6 order-lg-first text-center">
-          <img class="img-fluid w-75 h-100" src="<?php echo $step3Img ?>" alt="">
+        <div class="col-12 col-lg-6 order-lg-first text-center steps-img">
+          <img class="img-fluid w-100 h-100" src="<?php echo $step3Img ?>" alt="">
         </div>
       </div>
     </div>
