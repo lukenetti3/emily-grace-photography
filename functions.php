@@ -153,7 +153,7 @@ add_action( 'wp_enqueue_scripts', 'emily_gphotography_scripts' );
 function wpb_add_google_fonts() {
 
 wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Roboto+Slab:300,400' );
-wp_enqueue_style( 'google_web_fonts', 'https://fonts.googleapis.com/css?family=Satisfy&display=swap' );
+wp_enqueue_style( 'google_web_fonts', 'https://fonts.googleapis.com/css?family=Dancing+Script&display=swap' );
 
 }
 

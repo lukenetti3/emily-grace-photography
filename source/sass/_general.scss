@@ -9,12 +9,17 @@ html, body {
 }
 
 .special-font {
-  font-family: 'Satisfy', cursive;
-  position: relative;
-  right: 5rem;
-  z-index: 99;
-  font-size: 100px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 90px;
   color: $wine;
+}
+
+.rotate {
+  position: relative;
+  right: 11rem;
+  bottom: 2rem;
+  transform: rotate(-15deg);
+  z-index: 99;
 }
 
 body {

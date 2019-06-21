@@ -17,7 +17,7 @@ emilygnetti@gmail.com</p>
       </div>
       <div class="col-12 col-lg-6 text-center">
         <div class="pl-5 overlay-contact d-sm-none d-md-block"></div>
-        <img class="img-fluid w-75 h-85" src="<?php echo $aboutImage ?>" alt="Image of Emily">
+        <img class="img-fluid cont-img" src="<?php echo $aboutImage ?>" alt="Image of Emily">
       </div>
     </div>
 

@@ -125,8 +125,8 @@ $step3Text = get_field('step_3_text');
   <div class="container container-5">
     <div class="rotator rotate-1 show">
       <div class="row">
-        <div class="col-12 col-lg-6 pl-5">
-          <span class="pr-4 special-font">01</span><h2 class="pb-3">Photography Process</h2>
+        <div class="col-12 col-lg-6 pl-5 num-pos num-pos">
+          <div class="rotate"><span class="pr-4 special-font">step one</span></div><h2 class="pb-3">Photography Process</h2>
           <p class="lt-font about-line-height pb-4"><?php echo $step1Text ?></p>
           <div class="button-center">
             <button class="p-2 mb-4 cta-button">Process<i class="pl-2 fas fa-arrow-right"></i></button>
@@ -139,8 +139,8 @@ $step3Text = get_field('step_3_text');
     </div>
     <div class="rotator rotate-2">
       <div class="row">
-        <div class="col-12 col-lg-6 pl-5">
-          <span class="pr-4 special-font">02</span><h2 class="pb-3">Photography Process</h2>
+        <div class="col-12 col-lg-6 pl-5 num-pos">
+          <div class="rotate"><span class="pr-4 special-font">step two</span></div><h2 class="pb-3">Photography Process</h2>
           <p class="lt-font about-line-height pb-4"><?php echo $step2Text ?></p>
           <div class="button-center">
             <button class="p-2 mb-4 cta-button">Process<i class="pl-2 fas fa-arrow-right"></i></button>
@@ -153,8 +153,8 @@ $step3Text = get_field('step_3_text');
     </div>
     <div class="rotator rotate-3">
       <div class="row">
-        <div class="col-12 col-lg-6 pl-5">
-          <span class="pr-4 special-font">03</span><h2 class="pb-3">Photography Process</h2>
+        <div class="col-12 col-lg-6 pl-5 num-pos">
+          <div class="rotate"><span class="pr-4 special-font">step three</span></div><h2 class="pb-3">Photography Process</h2>
           <p class="lt-font about-line-height pb-4"><?php echo $step3Text ?></p>
           <div class="button-center">
             <button class="p-2 mb-4 cta-button">Process<i class="pl-2 fas fa-arrow-right"></i></button>
@@ -164,16 +164,6 @@ $step3Text = get_field('step_3_text');
           <img class="img-fluid w-100 h-100" src="<?php echo $step3Img ?>" alt="">
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<section id="section-6">
-  <div class="container d-flex justify-content-center">
-    <div>
-      <button class="p-2 mb-4 cta-button">
-        <a href="<?php echo get_bloginfo('wpurl') ?>/portfolio">See The Portfolio</a>
-      </button>
     </div>
   </div>
 </section>
