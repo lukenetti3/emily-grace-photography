@@ -4,7 +4,7 @@ $aboutImage = get_field('image');
 
 the_post(); ?>
 
-<section>
+<section class="pt-5">
   <div class="container nav-scroll" id="contact-page-section">
     <div class="row">
       <div class="col-12 col-lg-6">

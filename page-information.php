@@ -22,7 +22,7 @@ $BrideBlockText = get_field('bride_block_text');
 
 ?>
 
-<section id="information-section1" class="nav-scroll">
+<section id="information-section1" class="nav-scroll mt-4">
   <div class="container">
     <div class="row ">
       <div class="col-12 col-lg-4">

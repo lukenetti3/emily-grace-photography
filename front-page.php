@@ -29,7 +29,7 @@ $step3Text = get_field('step_3_text');
 ?>
 
 
-<section id="section-1" class="nav-scroll">
+<section id="section-1" class="nav-scroll pt-5">
   <div class="container py-5 hero-section">
     <div class="row img-set-3">
       <div class="col-12 col-md-4 box p-4 overlay-div">

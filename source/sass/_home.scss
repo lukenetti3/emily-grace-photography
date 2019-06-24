@@ -1,4 +1,8 @@
 // This CSS file is for the home page
+.logo {
+  height: 85px;
+  width: 25rem;
+}
 
 li {
   list-style-type: none;
@@ -319,5 +323,9 @@ footer {
   .box-text {
     margin-top: 10px;
     padding: 1.5rem;
+  }
+  .logo {
+    width: 13rem;
+    height: 3.5rem;
   }
 }

@@ -1,7 +1,9 @@
 // Colors and basic setup
+// $beige: #FCF9F2;
 $beige: #FCF9F2;
-$light-grey: #F2F2F2;
+// $light-grey: #F2F2F2;
 $dark-grey: #707070;
+$light-grey: #F2F2F2;
 $wine: #6E1012;
 
 html, body {
@@ -11,6 +13,12 @@ html, body {
 .special-font {
   font-family: 'Dancing Script', cursive;
   font-size: 90px;
+  color: $wine;
+}
+
+.special-font-portfolio {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
   color: $wine;
 }
 
@@ -68,7 +76,6 @@ a:hover {
       }
   }
 }
-
 
 // Media Queries for small screen navbar
 @media only screen and (max-width: 991px) {

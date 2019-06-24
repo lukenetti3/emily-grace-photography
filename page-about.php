@@ -9,7 +9,7 @@ $journeyPL = get_field('paragraph_left');
 $journeyPR = get_field('paragraph_right');
 ?>
 
-<section id="about-section1" class="nav-scroll">
+<section id="about-section1" class="nav-scroll mt-5">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-6 order-lg-2">
