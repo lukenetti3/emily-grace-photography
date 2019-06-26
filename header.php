@@ -24,42 +24,41 @@
 <div id="page" class="site">
 
 	<header id="masthead" class="site-header">
-
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top py-5">
-			<div class="container nav-area d-flex flex-row">
-					
-				<a href="<?php echo get_bloginfo('wpurl') ?>" class="d-block d-sm-none">
-					<img class="logo ml-4" src="<?php echo get_bloginfo('wpurl')?>/wp-content/themes/emily-gphotography/source/images/logo.png" alt="Emily Netti Logo">
+			<div class="nav-area d-flex flex-row container">
+				<div class="container text-center d-block d-lg-none d-xl-none">
+					<a href="<?php echo get_bloginfo('wpurl') ?>">
+						<img class="logo" src="<?php echo get_bloginfo('wpurl')?>/wp-content/themes/emily-gphotography/source/images/logo.png" alt="Emily Netti Logo">
+					</a>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse pb-sm-3 justify-content-center align-items-center" id="navbarNav">
+					<?php
+					wp_nav_menu( array(
+						'menu' 					 => 'header-left',
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu mx-auto text-center',
+						'menu_class'     => 'navbar-nav',
+						'add_li_class'	 => 'text-center',
+					) );
+					?>
+				</div>
+				<a href="<?php echo get_bloginfo('wpurl') ?>" class="justify-content-center d-none d-lg-block d-xl-block">
+					<img class="logo" src="<?php echo get_bloginfo('wpurl')?>/wp-content/themes/emily-gphotography/source/images/logo.png" alt="Emily Netti Logo">
 				</a>
-
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				    <span class="navbar-toggler-icon"></span>
-				  </button>
-				  <div class="collapse navbar-collapse pb-sm-3 justify-content-center" id="navbarNav">
-						<?php
-						wp_nav_menu( array(
-							'menu' 					 => 'header-left',
-							'theme_location' => 'menu-1',
-							'menu_id'        => 'primary-menu',
-							'menu_class'     => 'navbar-nav',
-						) );
-						?>
-				  </div>
-
-						<a href="<?php echo get_bloginfo('wpurl') ?>" class="d-none d-sm-block">
-								<img class="logo" src="<?php echo get_bloginfo('wpurl')?>/wp-content/themes/emily-gphotography/source/images/logo.png" alt="Emily Netti Logo">
-						</a>
-
-					<div class="collapse navbar-collapse pb-1 justify-content-center" id="navbarNav">
-						<?php
-						wp_nav_menu( array(
-							'menu' 					 => 'header-right',
-							'theme_location' => 'menu-1',
-							'menu_id'        => 'primary-menu',
-							'menu_class'     => 'navbar-nav',
-						) );
-						?>
-				  </div>
+				<div class="collapse navbar-collapse pb-1 justify-content-center align-items-center" id="navbarNav">
+					<?php
+					wp_nav_menu( array(
+						'menu' 					 => 'header-right',
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu mx-auto text-center',
+						'menu_class'     => 'navbar-nav',
+						'add_li_class'	 => 'text-center',
+					) );
+					?>
+				</div>
 			</div>
 		</nav>
 	</header><!-- #masthead -->

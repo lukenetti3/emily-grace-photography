@@ -159,13 +159,13 @@ wp_enqueue_style( 'google_web_fonts', 'https://fonts.googleapis.com/css?family=D
 
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 
-function add_link_atts($atts, $item, $args) {
-	if( $args->theme_location == 'primary' ) {
-  	$atts['class'] = "nav-link";
-	}
-	return $atts;
+function add_additional_class_on_li($classes, $item, $args) {
+    if($args->add_li_class) {
+        $classes[] = $args->add_li_class;
+    }
+    return $classes;
 }
-add_filter( 'nav_menu_link_attributes', 'add_link_atts', 10, 3);
+add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
 
 add_action('get_header', 'remove_admin_login_header');
 
