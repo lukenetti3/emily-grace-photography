@@ -82,13 +82,14 @@ a:hover {
   .navbar-toggler {
     position: absolute;
     right: 0.5rem;
-    top: 3.0rem;
+    top: 1.9rem;
     border: 0;
     color: $dark-grey;
   }
 
   .navbar {
     background-color: $beige !important;
+
 
     .navbar-brand {
       font-size: 1.5rem;
@@ -102,5 +103,4 @@ a:hover {
     position: relative;
     right: 0;
   }
-
 }

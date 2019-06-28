@@ -24,7 +24,7 @@
 <div id="page" class="site">
 
 	<header id="masthead" class="site-header">
-		<nav class="navbar navbar-expand-lg navbar-light fixed-top py-5">
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top py-4">
 			<div class="nav-area d-flex flex-row container">
 				<div class="container text-center d-block d-lg-none d-xl-none">
 					<a href="<?php echo get_bloginfo('wpurl') ?>">
