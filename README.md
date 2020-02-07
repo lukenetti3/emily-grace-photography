@@ -1,4 +1,7 @@
 <h1>Emily Netti Photography</h1>
+
+<a href="https://emilynettiphotography.com">Emily Netti Photography</a>
+
 <p>This website was created for Emily Netti Photography. It uses a custom WordPress theme built from scratch.</p>
 
   It is built using:
